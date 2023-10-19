@@ -18,7 +18,7 @@ public class Main {
         System.out.println("2. Odejmowanie");
         System.out.println("3. Mnożenie");
         System.out.println("4. Dzielenie");
-        System.out.println("5. Potęga");;
+        System.out.println("5. Potęga");
         int choice = pobieranieInt();
 
         switch (choice) {
@@ -97,7 +97,6 @@ public class Main {
 
     public static double potega(double liczba1, double liczba2) {
         double y = Math.pow(liczba1, liczba2);
-        ;
         System.out.println("Wynik wynosi: " + y);
         double u = Math.sqrt(y);
         System.out.println("Wynik wynosi: " + u);
